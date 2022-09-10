@@ -1,0 +1,131 @@
+body{
+    margin : 0%;
+}
+
+marquee{
+    color: pink;
+    font-size: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.headname{
+    padding-top: 0.25em;
+    font-size: 1.75em;
+    color: white;
+    padding-left: 1.90em;
+    padding-right: 2em;
+}
+
+.headname h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    margin-top: 23px; 
+    margin-bottom: 23px;                                          
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    padding:13px 20px;
+    
+}
+
+.navbar{
+    background-color:  pink;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 17px;
+}
+.navbar ul{
+    overflow: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.search{
+    float : right;
+    color: white;
+    padding: 12px 75px;
+}
+
+input:focus {
+    outline: none !important;  /*remove blue hover on input*/
+}
+
+.navbar input {
+    border: 2px solid  pink;
+    border-radius: 20px;
+    padding: 3px 17px;
+}
+
+footer{
+    background-color: pink;
+    padding: 1em;
+}
+
+#ft{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    font-size: 17px;
+}
+
+.nm{
+    margin: 1em;
+    border: 1px solid pink;
+    padding: 2em;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+#slider{
+    overflow: hidden;
+}
+
+.nm a{
+    text-decoration: none;
+    color: black;
+}
+
+.nm img{
+   width: 200px;
+   height: 150px;
+}
+
+#itemsbox{
+    text-decoration: none;
+
+}
+
+#itemsbox :hover{
+  background-color: pink;
+  color: white;
+}
+
+#more_items{
+    text-decoration: none;
+    padding: 0.5em;
+    color: -webkit-link;
+}
+
+/*
+@media only screen and (max-device-width: 398px) {
+  
+    .nm{
+        margin: 1em;
+        border: 1px solid pink;
+        padding: 1.5em;
+        border-radius: 2px;
+    }
+  
+}
+*/
+
+
+
