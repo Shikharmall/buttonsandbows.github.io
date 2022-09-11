@@ -132,11 +132,11 @@ input[type = "submit"]{
   
 }
 
-@media (min-device-width: 0px) and (max-device-width: 289px) {
+@media (min-device-width: 275px) and (max-device-width: 289px) {
 
     .abt{
         
-        margin: 0.5em;
+        margin: 0.3em;
     }
   
 }
