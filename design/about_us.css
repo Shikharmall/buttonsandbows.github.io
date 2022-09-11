@@ -114,11 +114,29 @@ input[type = "submit"]{
 
 /*about us*/
 
-@media (min-device-width: 0px) and (max-device-width: 403px) {
+@media (min-device-width: 322px) and (max-device-width: 403px) {
   
     .abt{
         
         margin: 2em;
+    }
+  
+}
+
+@media (min-device-width: 290px) and (max-device-width: 321px) {
+
+    .abt{
+        
+        margin: 1em;
+    }
+  
+}
+
+@media (min-device-width: 0px) and (max-device-width: 289px) {
+
+    .abt{
+        
+        margin: 0.5em;
     }
   
 }
