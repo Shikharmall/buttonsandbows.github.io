@@ -140,3 +140,20 @@ input[type = "submit"]{
     }
   
 }
+
+
+@media (min-device-width: 0px) and (max-device-width: 274px) {
+
+    .abt{
+        margin: 0.3em;
+    }
+    #abt1{
+        margin-left: 1em;
+        padding: 0.5em;
+    }
+
+    #abt2 p{
+        font-size: 15px;
+    }
+  
+}
